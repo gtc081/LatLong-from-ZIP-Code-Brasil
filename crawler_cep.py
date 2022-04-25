@@ -3,7 +3,7 @@ from geopy.geocoders import Nominatim
 import requests
 import json
 
-f = open("ceps_pacientes.csv",'r')
+f = open("ceps.csv",'r')
 csvreader = csv.reader(f)
 rows = []
 for row in csvreader:
